@@ -1,0 +1,24 @@
+//This program should collect user area code, and calculate the users total monthly bill
+//100 monthly texts are included in base fee, after 100th text $0.03 is added until the 300th text, after 300 text +0.02 for each text after
+//Total tax rate of 14% added to bill
+//Enter three digit code to view bill
+
+start
+    input- Customer area code
+    input- Customer phone number (no dash)
+    input- Number of text sent
+    while 100 text are sent from phone number
+      output is $0
+    
+     if 101- 300 text are sent
+       output 0.03 is added to bill after every text sent after 100th text
+     if 301 text are sent
+       output 0.02 is added to monthly bill after 300th text
+    while end
+    Monthly bill= total cost of text after 100
+
+    output-Area code
+    output-Customer phone number
+    output-Pre Monthly bill w/o tax
+    output-Total Monthly bill + taxes 14%
+    output-View bill with 3 digit code
